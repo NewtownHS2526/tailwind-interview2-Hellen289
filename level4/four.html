@@ -176,7 +176,7 @@
             <div class="flex justify-center">
                 <!-- TASK 4: Modify these <div> tags - Look for card with gradient image and "Card with Image" text -->
                 <div class="bg-white rounded-lg shadow-md max-w-md overflow-hidden">
-                    <div class="w-full h-48 bg-gradient-to-r from-purple-400 to-pink-400 rounded-t-lg"></div>
+                    <div class="w-full h-48 object-cover bg-gradient-to-r from-purple-400 to-pink-400 rounded-t-lg"></div>
                     <!-- 
                         bg-gradient-to-r: Gradient from left to right
                         from-purple-400: Start color purple
@@ -184,6 +184,7 @@
                         overflow-hidden: Hide overflow (for rounded corners)
                     -->
                     <div class="p-6">
+                        <src img="strawberry.jpg" alt="strawberry"/>
                         <h3 class="text-2xl font-bold text-gray-800 mb-2">Card with Image</h3>
                         <p class="text-gray-600">
                             This card has an image header. The image uses a gradient background as a placeholder.
@@ -213,14 +214,14 @@
         -->
         <div class="bg-white p-6 rounded-lg mb-6">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Task 5: Card with Action Button</h2>
-            <div class="flex justify-center">
+            <div class="flex justify-between">
                 <div class="bg-white rounded-lg shadow-md max-w-md p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-2">Product Card</h3>
                     <p class="text-gray-600 mb-4">
                         This is a product card with a call-to-action button.
                     </p>
                     <!-- TASK 5: Modify this <button> tag - Look for button with "Add to Cart" text -->
-                    <button class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors w-full">
+                    <button class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors w-full hover:text-black">
                         Add to Cart
                     </button>
                     <!-- 
@@ -257,21 +258,21 @@
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Card 1</h3>
                     <p class="text-gray-600 mb-4">First card in the grid.</p>
-                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors hover:text-black">
                         Learn More
                     </button>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Card 2</h3>
                     <p class="text-gray-600 mb-4">Second card in the grid.</p>
-                    <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                    <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors hover:text-yellow-300">
                         Learn More
                     </button>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Card 3</h3>
                     <p class="text-gray-600 mb-4">Third card in the grid.</p>
-                    <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition-colors">
+                    <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition-colors hover:text-green-500">
                         Learn More
                     </button>
                 </div>
